@@ -1,0 +1,650 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Course work\DADABI\IOWA\Total_City_Population_by_Year.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Total_City_Population_by_Year.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FIPS" size="254" source="File: D:\Course work\DADABI\IOWA\Total_City_Population_by_Year.tsv" type="V_WString" />
+            <Field name="City" size="254" source="File: D:\Course work\DADABI\IOWA\Total_City_Population_by_Year.tsv" type="V_WString" />
+            <Field name="Year" size="254" source="File: D:\Course work\DADABI\IOWA\Total_City_Population_by_Year.tsv" type="V_WString" />
+            <Field name="Population" size="254" source="File: D:\Course work\DADABI\IOWA\Total_City_Population_by_Year.tsv" type="V_WString" />
+            <Field name="Primary Point" size="254" source="File: D:\Course work\DADABI\IOWA\Total_City_Population_by_Year.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Iowa_Liquor_Sales.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Invoice/Item Number" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Date" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Store Number" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Store Name" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Address" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="City" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Zip Code" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Store Location" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="County Number" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="County" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Category" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Category Name" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Vendor Number" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Vendor Name" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Item Number" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Item Description" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Pack" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Bottle Volume (ml)" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="State Bottle Cost" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="State Bottle Retail" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Bottles Sold" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Sale (Dollars)" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Volume Sold (Liters)" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Volume Sold (Gallons)" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="198" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:Iowa_liquor_sales|||select dim_Iowa_County.* 
+from dim_Iowa_County</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Iowa_liquor_sales
+Query=select dim_Iowa_County.* 
+f...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="County_SK" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Iowa_liquor_sales;SERVER=SHREEYASH\SHREEYASH;Trusted_Connection=yes|||select dim_Iowa_County.* &#xA;from dim_Iowa_County" type="Int32" />
+            <Field name="County" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Iowa_liquor_sales;SERVER=SHREEYASH\SHREEYASH;Trusted_Connection=yes|||select dim_Iowa_County.* &#xA;from dim_Iowa_County" type="V_WString" />
+            <Field name="FIPS" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Iowa_liquor_sales;SERVER=SHREEYASH\SHREEYASH;Trusted_Connection=yes|||select dim_Iowa_County.* &#xA;from dim_Iowa_County" type="V_WString" />
+            <Field name="DI_CreateDate" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Iowa_liquor_sales;SERVER=SHREEYASH\SHREEYASH;Trusted_Connection=yes|||select dim_Iowa_County.* &#xA;from dim_Iowa_County" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings>
+        <Position x="486" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">""</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="654" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="65535" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_CreateDate = DateTimeNow()
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="750" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>County_Pop_SK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="846" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Item_SK" selected="True" />
+            <SelectField field="Right_Zip Code" selected="False" />
+            <SelectField field="Right_City" selected="False" />
+            <SelectField field="Right_Address" selected="False" />
+            <SelectField field="Right_Store Name" selected="False" />
+            <SelectField field="Right_Store Number" selected="False" />
+            <SelectField field="Right_Date" selected="False" />
+            <SelectField field="Right_Invoice/Item Number" selected="False" />
+            <SelectField field="Right_Category_SK" selected="False" />
+            <SelectField field="Right_Report Date2" selected="False" />
+            <SelectField field="Right_State Case Cost2" selected="False" />
+            <SelectField field="Right_Store Location" selected="False" />
+            <SelectField field="Right_SCC2" selected="False" />
+            <SelectField field="Right_List Date2" selected="False" />
+            <SelectField field="Right_Proof2" selected="False" />
+            <SelectField field="Right_Age2" selected="False" />
+            <SelectField field="Right_Inner Pack2" selected="False" />
+            <SelectField field="Right_Vendor" selected="False" />
+            <SelectField field="Right_Volume Sold (Gallons)2" selected="False" />
+            <SelectField field="Right_Volume Sold (Liters)2" selected="False" />
+            <SelectField field="Right_Sale (Dollars)2" selected="False" />
+            <SelectField field="Right_Bottles Sold2" selected="False" />
+            <SelectField field="Right_State Bottle Cost2" selected="False" />
+            <SelectField field="Right_UPC2" selected="False" />
+            <SelectField field="Right_Bottle Volume (ml)2" selected="False" />
+            <SelectField field="Right_County Number" selected="False" />
+            <SelectField field="Right_Category_Number" selected="False" />
+            <SelectField field="Right_DI_CreateDate" selected="False" />
+            <SelectField field="Right_Report Date" selected="False" />
+            <SelectField field="Right_State Case Cost" selected="False" />
+            <SelectField field="Right_SCC" selected="False" />
+            <SelectField field="Right_UPC" selected="False" />
+            <SelectField field="Right_List Date" selected="False" />
+            <SelectField field="Right_Proof" selected="False" />
+            <SelectField field="Right_Age" selected="False" />
+            <SelectField field="Right_Inner Pack" selected="False" />
+            <SelectField field="Right_Volume Sold (Gallons)" selected="False" />
+            <SelectField field="Right_County" selected="False" />
+            <SelectField field="Right_Volume Sold (Liters)" selected="False" />
+            <SelectField field="Right_Bottles Sold" selected="False" />
+            <SelectField field="Right_State Bottle Retail" selected="False" />
+            <SelectField field="Right_State Bottle Cost" selected="False" />
+            <SelectField field="Right_Bottle Volume (ml)" selected="False" />
+            <SelectField field="Right_Pack" selected="False" />
+            <SelectField field="Right_Item Description" selected="False" />
+            <SelectField field="Right_Item Number" selected="False" />
+            <SelectField field="Right_Vendor Name" selected="False" />
+            <SelectField field="Right_Vendor Number" selected="False" />
+            <SelectField field="Right_Category Name" selected="False" />
+            <SelectField field="Right_Sale (Dollars)" selected="False" />
+            <SelectField field="Right_Pack2" selected="False" />
+            <SelectField field="Right_State Bottle Retail2" selected="False" />
+            <SelectField field="Right_Item Number2" selected="False" />
+            <SelectField field="Vendor" selected="False" />
+            <SelectField field="Volume Sold (Gallons)" selected="False" />
+            <SelectField field="Right_Item Description2" selected="False" />
+            <SelectField field="Sale (Dollars)" selected="False" />
+            <SelectField field="Bottles Sold" selected="False" />
+            <SelectField field="State Bottle Retail" selected="True" />
+            <SelectField field="State Bottle Cost" selected="True" />
+            <SelectField field="Bottle Volume (ml)" selected="True" />
+            <SelectField field="Pack" selected="True" />
+            <SelectField field="Inner Pack" selected="True" />
+            <SelectField field="Item Description" selected="True" />
+            <SelectField field="Vendor Name" selected="False" />
+            <SelectField field="Vendor Number" selected="False" />
+            <SelectField field="Category Name" selected="False" />
+            <SelectField field="Category" selected="False" />
+            <SelectField field="County Number" selected="False" />
+            <SelectField field="Store Location" selected="False" />
+            <SelectField field="Store Number" selected="False" />
+            <SelectField field="Date" selected="False" />
+            <SelectField field="Invoice/Item Number" selected="False" />
+            <SelectField field="Item Number" selected="True" />
+            <SelectField field="Age" selected="True" />
+            <SelectField field="Volume Sold (Liters)" selected="False" />
+            <SelectField field="List Date" selected="True" />
+            <SelectField field="Right_Vendor Name2" selected="False" />
+            <SelectField field="Right_Vendor Number2" selected="False" />
+            <SelectField field="Right_Category Name2" selected="False" />
+            <SelectField field="Category_Number" selected="False" />
+            <SelectField field="Proof" selected="True" />
+            <SelectField field="Right_County Number2" selected="False" />
+            <SelectField field="Right_Store Location2" selected="False" />
+            <SelectField field="Right_Zip Code2" selected="False" />
+            <SelectField field="Right_City2" selected="False" />
+            <SelectField field="Right_Address2" selected="False" />
+            <SelectField field="Right_County2" selected="False" />
+            <SelectField field="Right_Store Number2" selected="False" />
+            <SelectField field="UPC" selected="True" />
+            <SelectField field="SCC" selected="True" />
+            <SelectField field="Right_Store Name2" selected="False" />
+            <SelectField field="State Case Cost" selected="True" />
+            <SelectField field="Category_SK" selected="True" />
+            <SelectField field="Right_Invoice/Item Number2" selected="False" />
+            <SelectField field="Right_Date2" selected="False" />
+            <SelectField field="Report Date" selected="True" />
+            <SelectField field="Zip Code" selected="False" />
+            <SelectField field="City" selected="False" />
+            <SelectField field="DI_CreateDate" selected="False" />
+            <SelectField field="Store Name" selected="False" />
+            <SelectField field="County_SK" selected="False" />
+            <SelectField field="Store_SK" selected="False" />
+            <SelectField field="Store ID" selected="False" />
+            <SelectField field="Store Status" selected="False" />
+            <SelectField field="City_SK" selected="False" />
+            <SelectField field="County" selected="False" />
+            <SelectField field="Address" selected="False" />
+            <SelectField field="Left_Right_Invoice/Item Number" selected="False" />
+            <SelectField field="Left_Right_Date" selected="False" />
+            <SelectField field="Left_Right_Store Number" selected="False" />
+            <SelectField field="Left_Right_Store Name" selected="False" />
+            <SelectField field="Left_Right_Address" selected="False" />
+            <SelectField field="Left_Right_City" selected="False" />
+            <SelectField field="Left_Right_Zip Code" selected="False" />
+            <SelectField field="Left_Right_Store Location" selected="False" />
+            <SelectField field="Left_Right_County Number" selected="False" />
+            <SelectField field="Left_Right_County" selected="False" />
+            <SelectField field="Left_Right_Category Name" selected="False" />
+            <SelectField field="Left_Right_Vendor Number" selected="False" />
+            <SelectField field="Left_Right_Vendor Name" selected="False" />
+            <SelectField field="Left_Right_Item Number" selected="False" />
+            <SelectField field="Left_Right_Item Description" selected="False" />
+            <SelectField field="Left_Right_Pack" selected="False" />
+            <SelectField field="Left_Right_Bottle Volume (ml)" selected="False" />
+            <SelectField field="Left_Right_State Bottle Cost" selected="False" />
+            <SelectField field="Left_Right_State Bottle Retail" selected="False" />
+            <SelectField field="Left_Right_Bottles Sold" selected="False" />
+            <SelectField field="Left_Right_Sale (Dollars)" selected="False" />
+            <SelectField field="Left_Right_Volume Sold (Liters)" selected="False" />
+            <SelectField field="Left_Right_Volume Sold (Gallons)" selected="False" />
+            <SelectField field="Left_Right_Inner Pack" selected="False" />
+            <SelectField field="Left_Right_Age" selected="False" />
+            <SelectField field="Left_Right_Proof" selected="False" />
+            <SelectField field="Left_Right_List Date" selected="False" />
+            <SelectField field="Left_Right_UPC" selected="False" />
+            <SelectField field="Left_Right_SCC" selected="False" />
+            <SelectField field="Left_Right_State Case Cost" selected="False" />
+            <SelectField field="Left_Right_Report Date" selected="False" />
+            <SelectField field="City_Pop_SK" selected="False" />
+            <SelectField field="FIPS" selected="False" />
+            <SelectField field="Year" selected="False" />
+            <SelectField field="Population" selected="False" />
+            <SelectField field="Primary Point" selected="False" />
+            <SelectField field="Right_FIPS" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1014" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\shree\AppData\Local\Temp\Engine_13132_93784709b582ce418f68bd833ca996a7_\Engine_13132_c70283bde1df5e4fa0a95574ba6a33d7~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings>
+        <Position x="294" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"City","County"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">True</Value>
+          <Value name="Drop Down (81)">lower</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="282" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\shree\AppData\Local\Temp\Engine_13132_93784709b582ce418f68bd833ca996a7_\Engine_13132_64a76b3ecbce26439a841d1828ca8672~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="162" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\shree\AppData\Local\Temp\Engine_13132_93784709b582ce418f68bd833ca996a7_\Engine_13132_e302e4035350b44daa3bbe3cc72479a0~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="390" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="County" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="County" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_County" selected="True" rename="Right_County" input="Right_" />
+                <SelectField field="Right_FIPS" selected="True" rename="Right_FIPS" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1002" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Iowa_liquor_sales|||fct_iowa_county_population_by_year</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Create</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Iowa_liquor_sales
+Query=fct_iowa_county_population_b...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="11" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="14" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output26" />
+      <Destination ToolID="14" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output26" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Join" />
+      <Destination ToolID="6" Connection="Input2" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>fct_iowa_county_population_by_year</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3c7e6885-2c8e-4a83-8b3f-96bb5c66d744" />
+      <Telemetry>
+        <PreviousWorkflowId value="c75c1995-7bf5-4f38-9c51-a0e761a349e7" />
+        <OriginWorkflowId value="00dd640c-401d-4cb1-a11e-e5c65fd148cf" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

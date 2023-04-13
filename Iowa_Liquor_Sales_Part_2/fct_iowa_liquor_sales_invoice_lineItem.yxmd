@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Course work\DADABI\IOWA\Total_City_Population_by_Year.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Total_City_Population_by_Year.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FIPS	City	Year	Population	Primary Point" size="254" source="File: D:\Course work\DADABI\IOWA\Total_City_Population_by_Year.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Iowa_Liquor_Sales.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Invoice/Item Number" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Date" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Store Number" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Store Name" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Address" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="City" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Zip Code" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Store Location" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="County Number" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="County" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Category" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Category Name" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Vendor Number" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Vendor Name" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Item Number" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Item Description" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Pack" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Bottle Volume (ml)" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="State Bottle Cost" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="State Bottle Retail" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Bottles Sold" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Sale (Dollars)" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Volume Sold (Liters)" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+            <Field name="Volume Sold (Gallons)" size="254" source="File: D:\Course work\DADABI\IOWA\Iowa_Liquor_Sales.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="210" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:Iowa_liquor_sales|||select dim_Iowa_Liquor_Products.* 
+from dim_Iowa_Liquor_Products</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Iowa_liquor_sales
+Query=select dim_Iowa_Liquor_Produ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Item_SK" source="File: aka:Iowa_liquor_sales|||select dim_Iowa_Liquor_Products.* &#xA;from dim_Iowa_Liquor_Products" type="Int32" />
+            <Field name="State Bottle Retail" size="254" source="File: aka:Iowa_liquor_sales|||select dim_Iowa_Liquor_Products.* &#xA;from dim_Iowa_Liquor_Products" type="V_WString" />
+            <Field name="State Bottle Cost" size="254" source="File: aka:Iowa_liquor_sales|||select dim_Iowa_Liquor_Products.* &#xA;from dim_Iowa_Liquor_Products" type="V_WString" />
+            <Field name="Bottle Volume (ml)" size="254" source="File: aka:Iowa_liquor_sales|||select dim_Iowa_Liquor_Products.* &#xA;from dim_Iowa_Liquor_Products" type="V_WString" />
+            <Field name="Pack" size="254" source="File: aka:Iowa_liquor_sales|||select dim_Iowa_Liquor_Products.* &#xA;from dim_Iowa_Liquor_Products" type="V_WString" />
+            <Field name="Inner Pack" size="254" source="File: aka:Iowa_liquor_sales|||select dim_Iowa_Liquor_Products.* &#xA;from dim_Iowa_Liquor_Products" type="V_WString" />
+            <Field name="Item Description" size="254" source="File: aka:Iowa_liquor_sales|||select dim_Iowa_Liquor_Products.* &#xA;from dim_Iowa_Liquor_Products" type="V_WString" />
+            <Field name="Item Number" size="254" source="File: aka:Iowa_liquor_sales|||select dim_Iowa_Liquor_Products.* &#xA;from dim_Iowa_Liquor_Products" type="V_WString" />
+            <Field name="Age" size="254" source="File: aka:Iowa_liquor_sales|||select dim_Iowa_Liquor_Products.* &#xA;from dim_Iowa_Liquor_Products" type="V_WString" />
+            <Field name="List Date" size="254" source="File: aka:Iowa_liquor_sales|||select dim_Iowa_Liquor_Products.* &#xA;from dim_Iowa_Liquor_Products" type="V_WString" />
+            <Field name="Proof" size="254" source="File: aka:Iowa_liquor_sales|||select dim_Iowa_Liquor_Products.* &#xA;from dim_Iowa_Liquor_Products" type="V_WString" />
+            <Field name="UPC" size="254" source="File: aka:Iowa_liquor_sales|||select dim_Iowa_Liquor_Products.* &#xA;from dim_Iowa_Liquor_Products" type="V_WString" />
+            <Field name="SCC" size="254" source="File: aka:Iowa_liquor_sales|||select dim_Iowa_Liquor_Products.* &#xA;from dim_Iowa_Liquor_Products" type="V_WString" />
+            <Field name="State Case Cost" size="254" source="File: aka:Iowa_liquor_sales|||select dim_Iowa_Liquor_Products.* &#xA;from dim_Iowa_Liquor_Products" type="V_WString" />
+            <Field name="Category_SK" source="File: aka:Iowa_liquor_sales|||select dim_Iowa_Liquor_Products.* &#xA;from dim_Iowa_Liquor_Products" type="Int32" />
+            <Field name="Report Date" size="254" source="File: aka:Iowa_liquor_sales|||select dim_Iowa_Liquor_Products.* &#xA;from dim_Iowa_Liquor_Products" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="438" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Invoice/Item Number" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="State Bottle Retail" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_State Bottle Retail" selected="True" rename="Right_State Bottle Retail" input="Right_" />
+                <SelectField field="Right_State Bottle Cost" selected="True" rename="Right_State Bottle Cost" input="Right_" />
+                <SelectField field="Right_Bottle Volume (ml)" selected="True" rename="Right_Bottle Volume (ml)" input="Right_" />
+                <SelectField field="Right_Pack" selected="True" rename="Right_Pack" input="Right_" />
+                <SelectField field="Right_Item Description" selected="True" rename="Right_Item Description" input="Right_" />
+                <SelectField field="Right_Item Number" selected="True" rename="Right_Item Number" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="582" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Iowa_liquor_sales|||fct_iowa_liquor_sales_invoice_lineItem</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Create</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Iowa_liquor_sales
+Query=fct_iowa_liquor_sales_invoic...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Join" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>fct_iowa_liquor_sales_invoice_lineItem</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="524d62f9-15e4-4c21-8db9-f788ae4f58bc" />
+      <Telemetry>
+        <PreviousWorkflowId value="290b1da7-2de3-4e6b-96fa-a746bf0ed9a7" />
+        <OriginWorkflowId value="290b1da7-2de3-4e6b-96fa-a746bf0ed9a7" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
